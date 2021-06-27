@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import patterns, include, url
+from scanhosts.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path(r"^getinfos/$",user_history),
+    path('getinfos/', user_history),
+    path('sendinfos/', user_info)
+
 ]
