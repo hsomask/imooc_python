@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import JsonResponse, HttpResponse
-from models import *
+from .models import *
 import json
 
 
@@ -26,6 +26,7 @@ def user_info(request):
         "IP": ip_addr,
         "UA": user_ua
     }
+    return render(request, 'sendinfos/', {'result': result})
 
 
 def user_history(request):

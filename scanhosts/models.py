@@ -17,7 +17,7 @@ class UserIPInfo(models.Model):
 
 
 class BrowseInfo(models.Model):
-    useragent = models.CharField(max_length=100, default='', verbose_name=u'用户浏览器agent信息', null=True)
+    useragent = models.CharField(max_length=256, default='', verbose_name=u'用户浏览器agent信息', null=True)
     userIp = models.CharField(max_length=256, verbose_name=u'唯一设备id', default='')
     # models.CharField(max_length=256, verbose_name=u'唯一设备id', default='')
     userIp = models.ForeignKey('UserIPInfo', on_delete=models.CASCADE)
