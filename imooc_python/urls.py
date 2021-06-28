@@ -18,10 +18,13 @@ from django.urls import path
 from django.conf.urls import include, url
 from scanhosts.views import *
 
+# 相当于是一个全局配置，请求发送的路由，都要通过这里转发到各个app里面去
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path(r"^getinfos/$",user_history),
-    path('getinfos/', user_history),
-    path('sendinfos/', user_info)
+    # path('getinfos/', user_history),
+    # path('sendinfos/', user_info)
+    path('scanhosts/', include('scanhosts.urls')),
 
 ]
