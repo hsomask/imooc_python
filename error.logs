@@ -1,0 +1,42 @@
+[I 20210630 18:35:22 autoreload:617] Watching for file changes with StatReloader
+[I 20210630 18:36:20 views:22] 127.0.0.1 already exists!
+[I 20210630 18:36:20 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[W 20210630 18:36:23 log:224] Not Found: /favicon.ico
+[W 20210630 18:36:23 basehttp:157] "GET /favicon.ico HTTP/1.1" 404 2088
+[I 20210630 18:37:30 autoreload:240] E:\django\imooc_python\scanhosts\views.py changed, reloading.
+[I 20210630 18:37:32 autoreload:617] Watching for file changes with StatReloader
+[I 20210630 18:37:36 views:17] helloworld
+[I 20210630 18:37:37 views:23] 127.0.0.1 already exists!
+[I 20210630 18:37:37 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[I 20210630 18:37:49 views:17] helloworld
+[I 20210630 18:37:50 views:23] 127.0.0.1 already exists!
+[I 20210630 18:37:50 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[I 20210630 18:38:32 autoreload:617] Watching for file changes with StatReloader
+[I 20210630 18:38:44 views:17] helloworld
+[I 20210630 18:38:45 views:23] 127.0.0.1 already exists!
+[I 20210630 18:38:45 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[I 20210630 18:40:14 autoreload:240] E:\django\imooc_python\imooc_python\settings.py changed, reloading.
+[INFO 20210630 18:40:15 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 18:46:00 autoreload:240] E:\django\imooc_python\imooc_python\settings.py changed, reloading.
+[INFO 20210630 18:46:03 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 18:46:11 autoreload:240] E:\django\imooc_python\imooc_python\settings.py changed, reloading.
+[INFO 20210630 18:46:13 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 19:11:54 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 19:11:58 views:19] helloworld
+[INFO 20210630 19:11:59 views:28] 127.0.0.1 already exists!
+[INFO 20210630 19:11:59 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[INFO 20210630 19:12:37 autoreload:240] E:\django\imooc_python\scanhosts\views.py changed, reloading.
+[INFO 20210630 19:12:38 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 19:12:44 views:19] helloworld
+[INFO 20210630 19:12:44 views:28] 127.0.0.1 already exists!
+[INFO 20210630 19:12:44 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[INFO 20210630 19:12:57 autoreload:240] E:\django\imooc_python\scanhosts\views.py changed, reloading.
+[INFO 20210630 19:12:58 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 19:13:06 views:19] helloworld
+[INFO 20210630 19:13:34 views:28] 127.0.0.1 already exists!
+[INFO 20210630 19:13:34 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188
+[INFO 20210630 19:16:21 autoreload:240] E:\django\imooc_python\imooc_python\settings.py changed, reloading.
+[INFO 20210630 19:16:23 autoreload:617] Watching for file changes with StatReloader
+[INFO 20210630 19:16:28 views:19] helloworld
+[INFO 20210630 19:16:36 views:28] 127.0.0.1 already exists!
+[INFO 20210630 19:16:37 basehttp:157] "GET /scanhosts/user_info HTTP/1.1" 200 188

@@ -4,6 +4,11 @@ from django.shortcuts import render
 from django.http import JsonResponse, HttpResponse
 from scanhosts.models import *
 import json
+import logging
+
+from scanhosts.util.tools import sendmail
+
+logger = logging.getLogger("django")
 
 
 def user_info(request):
@@ -11,11 +16,16 @@ def user_info(request):
     user_ua = request.META['HTTP_USER_AGENT']
 
     user_obj = UserIPInfo.objects.filter(ip=ip_addr)
-
+    logger.info("helloworld")
+    # 发送邮件
+    snd = sendmail(receive_addr=['hsoluo@163.com'], sub_info='111', content_info='222')
+    snd.send()
     if not user_obj:
+
         res = UserIPInfo.objects.create(ip=ip_addr)
         ip_addr_id = res.id
     else:
+        logger.info("%s already exists!" % ip_addr)
         ip_addr_id = user_obj[0].id
 
     BrowseInfo.objects.create(useragent=user_ua, userIp_id=ip_addr_id)
